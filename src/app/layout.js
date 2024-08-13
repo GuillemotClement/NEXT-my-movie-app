@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <body className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-auto min-h-full">
+        <main className="flex-auto mn-hi-full container mx-auto">
         {children}
         </main>
         <Footer />
