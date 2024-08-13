@@ -10,5 +10,5 @@ Utilisation de l'API de "The Movie Database".
 
 * JavaScript 
 * NextJS
-* SASS
+* Tailwind
 
