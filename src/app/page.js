@@ -1,9 +1,9 @@
-import styles from "./page.module.css";
+import MediaCard from "./components/media-card/MediaCard";
 
 export default function Home() {
   return (
-    <div >
-      
+    <div className="container mx-auto py-5">
+      <MediaCard />
     </div>
   );
 }
