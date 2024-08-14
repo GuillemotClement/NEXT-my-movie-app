@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import {faFilm} from "@fortawesome/free-solid-svg-icons";
+import MovieSearch from '../MovieSearch';
 import Link from "next/link";
 export default function Header(){
   return (
@@ -16,7 +17,8 @@ export default function Header(){
             <li><Link href="/movies">Films</Link></li>
           </ul>
         </nav>
-        <input type="text" placeholder="Rechercher un film/série ... " className="border py-1 px-2 rounded-md font-sans text-black min-w-80"/>
+        <MovieSearch/>
+        {/* <input type="text" placeholder="Rechercher un film/série ... " className="border py-1 px-2 rounded-md font-sans text-black min-w-80"/> */}
         <div className="">
           <FontAwesomeIcon icon={faUser}/>
         </div>
