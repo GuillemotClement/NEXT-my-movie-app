@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import {faFilm} from "@fortawesome/free-solid-svg-icons";
-import MovieSearch from '../MovieSearch';
+import MovieSearch from '../MovieSearch/MovieSearch';
 import Link from "next/link";
 export default function Header(){
   return (
